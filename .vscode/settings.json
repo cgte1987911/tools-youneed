@@ -1,0 +1,22 @@
+{
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+  ],
+  "eslint.options": {
+    "overrideConfigFile": ".eslintrc.cjs",
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": false,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "prettier.requireConfig": true,
+  "prettier.configPath": ".prettierrc",
+  "stylelint.enable": true,
+  "stylelint.configFile": ".stylelintrc",
+  "editor.suggest.snippetsPreventQuickSuggestions": true
+}
